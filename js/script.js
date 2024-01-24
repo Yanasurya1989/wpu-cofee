@@ -64,10 +64,10 @@ document.addEventListener("click", function (e) {
   };
 
   // click other componen
-  const modal = document.querySelector("#item-detail-modal");
+  // const modal = document.querySelector("#item-detail-modal");
   window.onclick = (e) => {
-    if (e.target === modal) {
-      modal.style.display = "none";
+    if (e.target === itemDetailModal) {
+      itemDetailModal.style.display = "none";
     }
   };
 });
